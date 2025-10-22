@@ -1,0 +1,17 @@
+# Hisilicon Hi35xx sample Makefile
+
+include ../Makefile.param
+
+
+SMP_SRCS := $(wildcard *.c)
+TARGET := $(SMP_SRCS:%.c=%)
+
+TARGET_PATH := $(PWD)
+
+# compile linux or HuaweiLite
+include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
+
+
+CFLAGS += -L/home/book/work/mpp/lib 
+CFLAGS  += -lRTSPServer
+CFLAGS  += -lmp4v2

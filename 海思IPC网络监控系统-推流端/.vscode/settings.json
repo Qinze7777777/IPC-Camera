@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "sample_comm.h": "c",
+        "easyrtspserverapi.h": "c",
+        "typeinfo": "c",
+        "easytypes.h": "c",
+        "hi_defines.h": "c",
+        "mpi_ae.h": "c",
+        "hh_osd_api.h": "c",
+        "hi_comm_region.h": "c",
+        "hi_common.h": "c"
+    }
+}
